@@ -1,0 +1,60 @@
+ONLINE LIBRARY MANAGEMENT SYSTEM – DOCUMENTATION
+
+Course: BSD 122 – Object-Oriented Programming I
+Programming Language: C++
+Student Name: Grace Wanjiru
+
+1. INTRODUCTION
+This project is an Online Library Management System developed using C++.
+The system is designed to manage books in a library and allow users to
+search, borrow, and return books. The project applies Object-Oriented
+Programming (OOP) concepts to solve a real-world problem.
+
+
+2. SYSTEM DESCRIPTION
+The system allows the librarian to add books to the system and users to
+search for available books. Users can borrow and return books while the
+system keeps track of book availability.
+
+
+
+3. CLASSES USED
+
+3.1 Book Class
+Attributes:
+- Title
+- Author
+- ISBN
+- Availability status
+
+Functions:
+- Add book
+- Display book details
+- Update availability
+
+Example Books Used:
+- Title: Bambi and the Duke | Author: Ash Knight | ISBN: 111
+- Title: Hellbound | Author: Kazzenlx | ISBN: 121
+
+
+3.2 User Class
+Attributes:
+- User ID
+- User name
+- Borrowed books
+
+Functions:
+- Borrow book
+- Return book
+
+
+3.3 Library Class
+Attributes:
+- Collection of books
+- Collection of users
+
+Functions:
+- Add book
+- Search book by title or ISBN
+- Borrow book
+- Return book
