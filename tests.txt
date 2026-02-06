@@ -1,0 +1,55 @@
+ONLINE LIBRARY MANAGEMENT SYSTEM – TEST CASES
+
+Test Case 1: Add Book (Positive)
+Input:
+Title: Bambi and the Duke
+Author: Ash Knight
+ISBN: 111
+Expected Result: Book added successfully
+Actual Result: Book added successfully
+Status: PASS
+
+Test Case 2: Add Book (Positive)
+Input:
+Title: Hellbound
+Author: Kazzenlx
+ISBN: 121
+Expected Result: Book added successfully
+Actual Result: Book added successfully
+Status: PASS
+
+Test Case 3: Add Book (Negative – Duplicate ISBN)
+Input:
+ISBN: 111
+Expected Result: System rejects duplicate ISBN
+Actual Result: System rejects duplicate ISBN
+Status: PASS
+
+Test Case 4: Search Book by Title
+Input: Bambi and the Duke
+Expected Result: Book details displayed
+Actual Result: Book details displayed
+Status: PASS
+
+Test Case 5: Borrow Book (Positive)
+Input:
+UserID: 1
+ISBN: 121
+Expected Result: Book borrowed successfully
+Actual Result: Book borrowed successfully
+Status: PASS
+
+Test Case 6: Borrow Book (Negative – Book Not Available)
+Input:
+ISBN: 121
+Expected Result: Book unavailable message displayed
+Actual Result: Book unavailable message displayed
+Status: PASS
+
+Test Case 7: Return Book
+Input:
+UserID: 1
+ISBN: 121
+Expected Result: Book returned successfully
+Actual Result: Book returned successfully
+Status: PASS
